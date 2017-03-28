@@ -1,3 +1,5 @@
+require "administrate/base_dashboard"
+
 class UserDashboard < Administrate::BaseDashboard
   ATTRIBUTE_TYPES = {
     posts: Field::HasMany.with_options(searchable: false),
