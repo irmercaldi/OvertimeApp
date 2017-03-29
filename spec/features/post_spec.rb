@@ -77,7 +77,7 @@ describe 'navigate' do
       expect(page).to have_content("Some rationale")
     end
 
-    it 'will have a user associated it' do
+    xit 'will have a user associated it' do
       fill_in 'post[date]', with: Date.today
       fill_in 'post[rationale]', with: "User Association"
       click_on "Save"
