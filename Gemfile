@@ -39,5 +39,5 @@ gem "gritter", "1.2.0"
 gem 'administrate', '~> 0.4.0'
 gem 'bourbon'
 gem 'pundit', '~> 1.1'
-gem 'twilio', '~> 3.1', '>= 3.1.1'
+gem 'twilio-ruby', '~> 4.13'
 gem 'dotenv-rails' , :groups => [:development, :test]
